@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/solomononsun/static/css/main.57048844.css",
+    "main.js": "/solomononsun/static/js/main.63c89b2a.js",
+    "static/media/food15.png": "/solomononsun/static/media/food15.14709e9584863854e031.png",
+    "static/media/food10.png": "/solomononsun/static/media/food10.1b9d2d832a40fed8ae79.png",
+    "static/media/food20.png": "/solomononsun/static/media/food20.174d14ef6022cb64ee6b.png",
+    "static/media/food3.png": "/solomononsun/static/media/food3.c8694f189635f02cdf3c.png",
+    "static/media/food4.png": "/solomononsun/static/media/food4.c1cf6d2a4209731bc6eb.png",
+    "static/media/food13.png": "/solomononsun/static/media/food13.f53957dd5e2220c0a6e3.png",
+    "static/media/food6.png": "/solomononsun/static/media/food6.e2a735ca5cb7040a8915.png",
+    "static/media/food11.png": "/solomononsun/static/media/food11.b0df6a55c15f867ede14.png",
+    "static/media/food17.png": "/solomononsun/static/media/food17.c40580f6db5787536008.png",
+    "static/media/food9.png": "/solomononsun/static/media/food9.dc56ea956d8d0c30bd90.png",
+    "static/media/food19.png": "/solomononsun/static/media/food19.25ef1b11c7ca362cac6c.png",
+    "static/media/food5.png": "/solomononsun/static/media/food5.9a4eaf4d376c4478986e.png",
+    "static/media/food7.png": "/solomononsun/static/media/food7.ce964960f358be3448d4.png",
+    "static/media/food16.png": "/solomononsun/static/media/food16.d9f8abe9936190235efa.png",
+    "static/media/food8.png": "/solomononsun/static/media/food8.3661e521a20ae884b2fa.png",
+    "static/media/food18.png": "/solomononsun/static/media/food18.ba4699fa0e484f322237.png",
+    "static/media/food12.png": "/solomononsun/static/media/food12.dc3e04d12529716a82f8.png",
+    "static/media/food2.png": "/solomononsun/static/media/food2.ec3ca1f0ad2fc0272a6a.png",
+    "static/media/food1.png": "/solomononsun/static/media/food1.5d77ea64a8106da75a56.png",
+    "static/media/food14.png": "/solomononsun/static/media/food14.ac06c9ab162b730932f4.png",
+    "static/media/foodCat0Second.png": "/solomononsun/static/media/foodCat0Second.1776753a4d7d5ceaecfd.png",
+    "static/media/foodCat2Second.png": "/solomononsun/static/media/foodCat2Second.130a3680a956532cb48b.png",
+    "static/media/foodCat2First.png": "/solomononsun/static/media/foodCat2First.36a0dbf35226c1a77a68.png",
+    "static/media/foodCat0First.png": "/solomononsun/static/media/foodCat0First.a7329de08049f84866d8.png",
+    "static/media/foodCat1Second.png": "/solomononsun/static/media/foodCat1Second.c32d419b25dcb72ff04c.png",
+    "static/media/mainCat.png": "/solomononsun/static/media/mainCat.ec5134bc1ef203575832.png",
+    "static/media/foodCat1First.png": "/solomononsun/static/media/foodCat1First.14e2b43cdbd4ecc3ad3c.png",
+    "index.html": "/solomononsun/index.html",
+    "main.57048844.css.map": "/solomononsun/static/css/main.57048844.css.map",
+    "main.63c89b2a.js.map": "/solomononsun/static/js/main.63c89b2a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57048844.css",
+    "static/js/main.63c89b2a.js"
+  ]
+}
