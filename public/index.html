@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#dc3545" />
+    <meta name="description" content="상명대 점심은 온순이가 첵임진다." />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <title>솔로몬 온순이의 점심 판결</title>
+    <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+  </head>
+  <body>
+    <a id="kakao-link-btn" href="javascript:;"></a>
+    <script type="text/javascript">
+      //<![CDATA[
+      Kakao.init("d43fc15571c5a561e1a3f011a47564a4");
+      Kakao.Link.createDefaultButton({
+        container: "#kakao-link-btn",
+        objectType: "feed",
+        content: {
+          title: "솔로몬 온순이의 점심 판결",
+          description: "상명대 점심은 온순이가 책임진다.",
+          imageUrl: "https://hellominchan.github.io/solomononsun/kakaoCat.png",
+          link: {
+            mobileWebUrl: "https://hellominchan.github.io/solomononsun",
+            webUrl: "https://hellominchan.github.io/solomononsun"
+          }
+        },
+        social: {
+          likeCount: 286,
+          commentCount: 45,
+          sharedCount: 845
+        },
+        buttons: [
+          {
+            title: "웹으로 보기",
+            link: {
+              mobileWebUrl: "https://hellominchan.github.io/solomononsun",
+              webUrl: "https://hellominchan.github.io/solomononsun"
+            }
+          }
+        ]
+      });
+      //]]>
+    </script>
+
+    <div id="root"></div>
+  </body>
+</html>

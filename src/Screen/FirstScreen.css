@@ -1,0 +1,171 @@
+.FirstScreen {
+  position: fixed;
+  width: 100vw;
+  height: 100%;
+
+  animation: fadein;
+  animation-duration: 3s;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.Desktop {
+  display: flex;
+  height: 100%;
+}
+.Desktop_section1 {
+  width: 40vw;
+  height: 100%;
+  margin-left: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Desktop_picture {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.Desktop_section2 {
+  width: 60vw;
+  height: 100%;
+  padding: 5%;
+}
+.Desktop_section2_header {
+  height: 15%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.Desktop_section2_body {
+  height: 60%;
+
+  padding-top: 15%;
+  padding-bottom: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.Desktop_body_title {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Desktop_body_title_description1 {
+  display: flex;
+  align-items: flex-end;
+}
+.Desktop_body_title_description2 {
+  display: flex;
+  justify-content: flex-end;
+}
+.Desktop_body_title_description3 {
+  display: flex;
+  justify-content: center;
+  color: #dc3545;
+
+  animation: fadein2 1.3s ease infinite alternate;
+}
+@keyframes fadein2 {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.Desktop_section2_footer {
+  height: 25%;
+
+  padding-left: 25%;
+  padding-right: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Desktop_button {
+  height: 10vh;
+  border-radius: 1rem;
+  font-size: 1.5vmax;
+}
+
+/* 데스크탑 환경 초기화 */
+@media (min-width: 450px) {
+  .FirstScreen_header {
+    display: none;
+  }
+  .FirstScreen_body {
+    display: none;
+  }
+  .FirstScreen_footer {
+    display: none;
+  }
+}
+@media (max-width: 450px) {
+  /* 모바일 환경 초기화 */
+  .Desktop {
+    display: none;
+  }
+
+  .FirstScreen_header {
+    height: 12%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .FirstScreen_body {
+    height: 67.5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .FirstScreen_body_background {
+    height: 100%;
+  }
+  .FirstScreen_body_title {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .FirstScreen_body_title_inline {
+    display: flex;
+    align-items: flex-end;
+  }
+  .FirstScreen_body_picture {
+    height: 70%;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .FirstScreen_picture {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .FirstScreen_footer {
+    height: 20.5%;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: flex;
+    align-items: center;
+  }
+  .FirstScreen_button_start {
+    height: 12vh;
+    border-radius: 1rem;
+    font-size: 4vmax;
+  }
+}
